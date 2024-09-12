@@ -70,11 +70,6 @@ plt.boxplot(file_cctv['총계'],labels = ["CCTV"])
 plt.show()
 
 #9번
-import numpy as np
-avg = np.mean(file_cctv['총계'])
-print('CCTV 개수의 평균값:',avg)
-
-#10번
 import matplotlib.pyplot as plt
 plt.title("각 기관별 CCTV 총계",fontsize =16)
 plt.hist(file_cctv["총계"],bins=50)
